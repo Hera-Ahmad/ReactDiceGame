@@ -12,6 +12,7 @@ const TotalScore = () => {
 }
 
 export default TotalScore;
+
 const ScoreContainer= styled.div`
 max-width: 200px;
 text-align:center;

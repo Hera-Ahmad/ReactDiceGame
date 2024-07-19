@@ -1,13 +1,21 @@
 import TotalScore from "./TotalScore";
 import NumberSelector from "./NumberSelector";
+import  styled from "styled-components"
 
 const GamePlay = () => {
   return (
-    <main>
+    <maiMainContainern>
+      <div className="top-section">
       <TotalScore/>
       <NumberSelector/>
-    </main>
+      </div>
+    </maiMainContainern>
   );
 };
 
 export default GamePlay;
+
+const MainContainer= styled.main`
+.top-section{
+  display: flex;
+}`;
