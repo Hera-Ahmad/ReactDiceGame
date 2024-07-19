@@ -1,9 +1,15 @@
-import styled from "styled-components"
+import React from 'react';
+import styled from 'styled-components';
+import StartGame from './components/StartGame';
+
+
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <StartGame/>
+  );
+};
 
 export default App;
+
+
